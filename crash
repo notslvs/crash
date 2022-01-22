@@ -1,0 +1,153 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local FrameShadow = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local CrashButton = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local Name = Instance.new("TextLabel")
+local Open = Instance.new("TextButton")
+local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local Des = Instance.new("TextLabel")
+
+
+
+ScreenGui.Parent = game.CoreGui
+
+FrameShadow.Name = "FrameShadow"
+FrameShadow.Parent = ScreenGui
+FrameShadow.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+FrameShadow.BorderSizePixel = 0
+FrameShadow.Position = UDim2.new(0.341167569, 0, 0.324195445, 0)
+FrameShadow.Size = UDim2.new(0, 306, 0, 156)
+FrameShadow.ZIndex = -1
+
+Frame.Parent = FrameShadow
+Frame.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Frame.BackgroundTransparency = -1.000
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.00191560388, 0, -0.00176399946, 0)
+Frame.Size = UDim2.new(0, 300, 0, 150)
+
+CrashButton.Name = "CrashButton"
+CrashButton.Parent = Frame
+CrashButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CrashButton.BackgroundTransparency = 1.000
+CrashButton.BorderSizePixel = 0
+CrashButton.Position = UDim2.new(0.176666662, 0, 0.613333344, 0)
+CrashButton.Size = UDim2.new(0, 200, 0, 50)
+CrashButton.ZIndex = 3
+CrashButton.Font = Enum.Font.Arial
+CrashButton.Text = "Crash server"
+CrashButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CrashButton.TextScaled = true
+CrashButton.TextSize = 14.000
+CrashButton.TextWrapped = true
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = CrashButton
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(215, 233, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.ZIndex = 2
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(19, 198, 16)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+Name.Name = "Name"
+Name.Parent = Frame
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.126666665, 0, 0.0666666701, 0)
+Name.Size = UDim2.new(0, 215, 0, 72)
+Name.Font = Enum.Font.ArialBold
+Name.Text = "DAHOOD SERVER CRASHER"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextSize = 30.000
+Name.TextWrapped = false
+
+Open.Name = "Open"
+Open.Parent = Frame
+Open.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
+Open.BackgroundTransparency = 1.000
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0.923333347, 0, 0, 0)
+Open.Size = UDim2.new(0, 29, 0, 35)
+Open.ZIndex = 6
+Open.Font = Enum.Font.Arial
+Open.Text = "--->"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+
+TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_2.Parent = Open
+TextButton_Roundify_12px_2.Active = true
+TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_2.Selectable = true
+TextButton_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_2.ZIndex = 5
+TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(167, 167, 167)
+TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_2.SliceScale = 0.120
+
+Des.Name = "Des"
+Des.Parent = Open
+Des.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Des.BackgroundTransparency = 1.000
+Des.BorderSizePixel = 0
+Des.Position = UDim2.new(1.01999998, 0, 0, 0)
+Des.Size = UDim2.new(0, 200, 0, 156)
+Des.Font = Enum.Font.Arial
+Des.Text = "Takes about 15sec.            Requires 0$                        Best crasher ever                              Made by czopek"
+Des.TextColor3 = Color3.fromRGB(0, 0, 0)
+Des.TextSize = 23.000
+Des.TextTransparency = 1.000
+Des.TextWrapped = true
+Des.TextXAlignment = Enum.TextXAlignment.Left
+Des.TextYAlignment = Enum.TextYAlignment.Top
+
+-- Scripts:
+
+local function BSHTCEL_fake_script() -- CrashButton.LocalScript 
+	local script = Instance.new('LocalScript', CrashButton)
+
+	local q = script.Parent
+	local function onActivated()
+		q.Text = 'Crashing...'
+	
+	wait(14.3)
+			game.Players.LocalPlayer:Kick("You Have Been Permanently Banned, Stop Exploiting.")
+	end
+		q.Activated:Connect(onActivated)
+		
+	
+end
+coroutine.wrap(BSHTCEL_fake_script)()
+local function XQUXU_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local x = script.Parent
+	
+	local function onActivated()
+		script.Parent.Des.BackgroundTransparency = 0
+		script.Parent.Des.TextTransparency = 0
+	end
+	
+	
+	
+	x.Activated:Connect(onActivated)
+end
+coroutine.wrap(XQUXU_fake_script)()
